@@ -57,38 +57,31 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Home<span class="caret"></span></a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">Highlights</a>
-                        </li>
+                                Home <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#top">Top</a></li>
+                                <li><a href="Harshal_CV.pdf" target="_blank">Download CV</a></li>
+                            </ul>
+                        </li>                        
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Publications<span class="caret"></span></a>
+                                Publications <span class="caret"></span>
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Selected</a></li>
-                                <li><a href="publications/">All</a></li>
+                                <li><a href="https://scholar.google.com/citations?user=dAjcPkAAAAAJ&hl=en" target="_blank">All (Google Scholar)</a></li>
                             </ul>
-                        </li>
+                        </li>                        
                         <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="talks/">Talks</a>
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Education & Skills</a>
                         </li>
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
                         </li>
                         <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="#systems">Systems</a>
-                        </li>
-                        <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Service</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Advising</a>
-                        </li>
-                        
+                        </li>                        
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
                         </li>
@@ -177,8 +170,8 @@
                         
                         </p>
                         <p>
-                        <p><a href="bio.html" class="btn-sm btn-primary">Biography &raquo;</a>
-                        <a href="Harshal_Chaudhari_CV.pdf" class="btn-sm btn-primary" target="_main">CV (PDF)&raquo;</a>
+                        <p>
+                        <a href="Harshal_CV.pdf" class="btn-sm btn-primary" target="_main">CV (PDF)&raquo;</a>
                         <a href="https://scholar.google.com/citations?user=dAjcPkAAAAAJ&hl=en"class="btn-sm btn-primary"target="_main">google scholar&raquo;</a>
                     </div>
                     
@@ -189,50 +182,123 @@
         
         
         <!-- Research Section -->
-        <section  name="publications" id="publications">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-3">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-publications-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    <div class="allshow" style="display:none;" id="tab-publications-content">
-                        <hr class="star-primary">
-                        
-                        <h2>Selected Publications <a href="publications/" class="btn btn-primary">All Publications&raquo;</a></h2>
-                        <h4>
-                            <span class="label label-warning">
-                                <a target="_blank" href="https://en.wikipedia.org/wiki/H-index"><font color=white>h-index</font></a>: 2
-                            </span>&nbsp;
-                            <span class="label label-warning">
-                                <a target="_blank" href="https://scholar.google.com/citations?user=dAjcPkAAAAAJ&hl=en"><font color=white>Citations</font></a>: 6
-                            </span>&nbsp;
-                            <!-- <span class="label label-warning">
-                                <a target="_blank" href="https://en.wikipedia.org/wiki/Erd&ouml;s_number"><font color="white">Erd&ouml;s #</font></a>: 3
-                            </span>&nbsp; -->
-                            <span class="label label-warning">
-                                <a target="_blank" href="https://orcid.org/0009-0005-5990-6645"><font color="white">ORCID</font></a>
-                            </span>&nbsp;
-                            <!-- <span class="label label-default">
-                                <a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=35176841800"><font color="white">Scopus</font></a>
-                            </span>&nbsp; -->
-                            <!-- <span class="label label-default">
-                                <a target="_blank" href="https://www.researcherid.com/rid/O-2301-2016"><font color="white">ResearcherID</font></a>
-                            </span> -->
-                            
-                            
-                        </h4>
-                        <ul>
-                            <li><span class="label label-success">Elsevier OLEN'24</span> Harshal Chaudhari, Rishikesh Kulkarni, Pradeep Kumar Sundaravadivelu, Rajkumar P. Thummer, M.K. Bhuyan, <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0143816623003822">"Dimensionality reduction technique based phase aberration compensation and spurious fringe removal in off-axis digital holographic microscopy"</a>,Optics and Lasers in Engineering, Volume 172, 2024. </li>
-                            <li><span class="label label-success">OSA Optics Letter'24</span> Harshal Chaudhari, Rishikesh Kulkarni, Pradeep Kumar Sundaravadivelu, Rajkumar P. Thummer, M.K. Bhuyan, <a target="_blank" href="https://opg.optica.org/ol/fulltext.cfm?uri=ol-49-2-182&id=544826">"Digital hologram reconstruction algorithm based on the fractional Fourier transform in non-telecentric digital holographic microscopy"</a>, Opt. Lett. 49, 182-185 2024.</li>
-                            <li><span class="label label-success">Elsevier JOLT'25</span> Harshal Chaudhari, Pradeep Kumar Sundaravadivelu, Rishikesh Kulkarni, M.K. Bhuyan, Rajkumar P. Thummer, <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0030399224014877">"Cumulative learning based segmentation aided cell mixtures classification in digital holographic microscopy"</a>, Optics & Laser Technology, Volume 181, Part C, 2025.</li>
-                                </ul>
-                        <p><a href="publications/" class="btn btn-primary">All Publications &raquo;</a>
-                        </p>
-                    </div>
-                </div>
+<section name="publications" id="publications">
+    <div class="container lead">
+        <div style="text-align: left; margin-top:10px" class="col-md-12">
+            
+            <b class="noshow" style="display:none;" id="tab-3">
+                <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-publications-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-down"></span></button>
+            </b>
+            <div class="allshow" style="display:none;" id="tab-publications-content">
+                <hr class="star-primary">
+                
+                <h2>Selected Publications 
+                    <a href="https://scholar.google.com/citations?user=dAjcPkAAAAAJ&hl=en" class="btn btn-primary" target="_blank">All Publications &raquo;</a>
+                </h2>
+                <h4>
+                    <span class="label label-warning">
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/H-index"><font color=white>h-index</font></a>: 2
+                    </span>&nbsp;
+                    <span class="label label-warning">
+                        <a target="_blank" href="https://scholar.google.com/citations?user=dAjcPkAAAAAJ&hl=en"><font color=white>Citations</font></a>: 7
+                    </span>&nbsp;
+                    <span class="label label-warning">
+                        <a target="_blank" href="https://orcid.org/0009-0005-5990-6645"><font color="white">ORCID</font></a>
+                    </span>&nbsp;
+                </h4>
+
+                <!-- Journals -->
+                <h3>Journals</h3>
+                <ul>
+                    <li>
+                        <span class="label label-success">Elsevier OLEN'24</span> Harshal Chaudhari, Rishikesh Kulkarni, Pradeep Kumar Sundaravadivelu, Rajkumar P. Thummer, M.K. Bhuyan, 
+                        <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0143816623003822">
+                        "Dimensionality reduction technique based phase aberration compensation and spurious fringe removal in off-axis digital holographic microscopy"</a>, Optics and Lasers in Engineering, Volume 172, 2024.
+                    </li>
+                    <li>
+                        <span class="label label-success">OSA Optics Letter'24</span> Harshal Chaudhari, Rishikesh Kulkarni, Pradeep Kumar Sundaravadivelu, Rajkumar P. Thummer, M.K. Bhuyan, 
+                        <a target="_blank" href="https://opg.optica.org/ol/fulltext.cfm?uri=ol-49-2-182&id=544826">
+                        "Digital hologram reconstruction algorithm based on the fractional Fourier transform in non-telecentric digital holographic microscopy"</a>, Opt. Lett. 49, 182–185, 2024.
+                    </li>
+                    <li>
+                        <span class="label label-success">Elsevier JOLT'25</span> Harshal Chaudhari, Pradeep Kumar Sundaravadivelu, Rishikesh Kulkarni, M.K. Bhuyan, Rajkumar P. Thummer, 
+                        <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0030399224014877">
+                        "Cumulative learning based segmentation aided cell mixtures classification in digital holographic microscopy"</a>, Optics & Laser Technology, Volume 181, Part C, 2025.
+                    </li>
+                </ul>
+
+                <!-- Conferences -->
+                <h3>Conferences</h3>
+                <ul>
+                    <li>
+                        <span class="label label-success">SPIE Unconventional Imaging '24</span>
+                        Harshal Chaudhari, Rishikesh Kulkarni, M. K. Bhuyan, Pradeep K. Sundaravadivelu, Rajkumar Thummer, 
+                        <a target="_blank" href="https://doi.org/10.1117/12.3017346">
+                        "Machine-learning-based classification of co-cultured cells from the phase images in digital holographic microscopy"</a>, 
+                        Proc. SPIE 12996, Unconventional Optical Imaging IV, 129960H, June 2024.
+                    </li>
+                    <li>
+                        <span class="label label-success">OPTOIN'24</span>
+                        Harshal Chaudhari, Rishikesh Kulkarni, M. K. Bhuyan, 
+                        <a target="_blank" href="https://csio.res.in/OPTOIN2024/e-Proceedings_OPTOIn-2024.pdf">
+                        "Numerical Reconstruction Algorithm based on Fractional Fourier Transform and Particle Swarm Optimization in Non-Telecentric Digital Holographic Microscopy"</a>, 
+                        OPTOIN 2024, October 2024.
+                    </li>
+                    <li>
+                        <span class="label label-success">Optica DH 3D Imaging '22</span>
+                        H. Chaudhari, R. Kulkarni, and M. K. Bhuyan, 
+                        <a target="_blank" href="https://doi.org/10.1364/DH.2022.W5A.6">
+                        "Weakly Supervised Learning-based Reconstruction of Planktons in Digital In-line Holography"</a>, 
+                        Digital Holography and 3-D Imaging 2022, Optica Publishing Group.
+                    </li>
+                    <li>
+                        <span class="label label-success">IEEE 5G World Forum '20</span>
+                        H. R. Chaudhari, C. P. Najlah and S. M. Sameer, 
+                        <a target="_blank" href="https://doi.org/10.1109/5GWF49715.2020.9221454">
+                        "A ResNet Based End-to-End Wireless Communication System under Rayleigh Fading and Bursty Noise Channels"</a>, 
+                        2020 IEEE 3rd 5G World Forum (5GWF), Bangalore, India, pp. 53–58, 2020.
+                    </li>
+                </ul>
+
+                <!-- Under Review -->
+                <h3>Under Review / Accepted</h3>
+                <ul>
+                    <!-- Submitted Journal -->
+                    <li>
+                        <span class="label label-warning">Applied Optics</span>
+                        Harshal Chaudhari, Arnab Das, Harsh Singh, Anik Ghosh, Rishikesh Kulkarni, M. K. Bhuyan, Rajkumar P. Thummer, 
+                        "Lateral shearing common path digital holographic microscopy with iteration reconstruction".
+                    </li>
+
+                    <!-- Manuscript in preparation -->
+                    <li>
+                        <span class="label label-warning">IEEE Transactions on Instrumentation and Measurement</span>
+                        Harshal Chaudhari, Harsh Singh, Rishikesh Kulkarni, M. K. Bhuyan, Rajkumar P. Thummer, 
+                        "Deep Learning-Enhanced Holographic Flow Cytometry: Real-Time Cell Detection and Autofocusing for High-Throughput Imaging".
+                    </li>
+
+                    <!-- Accepted Conference -->
+                    <li>
+                        <span class="label label-info">SPIE Optical Metrology '25</span>
+                        Harshal Chaudhari, Arnab Das, Harsh Singh, Anik Ghosh, Rishikesh Kulkarni, M. K. Bhuyan, Rajkumar P. Thummer, 
+                        "Common path off-axis digital holographic flow cytometry based on lateral shearing using beam splitter". <strong>(Accepted)</strong>
+                    </li>
+
+                    <!-- Accepted Conference -->
+                    <li>
+                        <span class="label label-info">SPIE Optical Metrology '25</span>
+                        Harshal Chaudhari, Rishikesh Kulkarni, M. K. Bhuyan, 
+                        "Label-Free Cell Death Assessment using Digital Holographic Microscopy by Integrating CNNs and Vision Transformers". <strong>(Accepted)</strong>
+                    </li>
+                </ul>
+
+
+                <!-- <p><a href="publications/" class="btn btn-primary">All Publications &raquo;</a></p> -->
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+
         
         <!-- Education & Skills Section -->
         <section name="awards" id="awards">
@@ -259,85 +325,33 @@
                            
                         </ul>
                         <h2>Skills</h2>
-                           <ul>
-                               <li>
-                                   <span class="label label-success">Programming Languages</span> Python, C, C++, SQL.
-                               </li>
-                               <li>
-                                   <span class="label label-success">Tools &amp; Technologies</span> OpenCV, TensorFlow, Keras, PyTorch, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook, Anaconda, Git, Docker, Pycharm, Visual Studio Code, Spyder, Sublime Text, Notepad++, Code::Blocks, Dev C++, MS Office.
-                               </li>
-                               <li>
-                                   <span class="label label-success">Web Technologies</span> HTML, CSS, JavaScript, PHP, MySQL.
-                               </li>
-                               <li>
-                                   <span class="label label-success">Operating Systems</span> Windows, Linux.
-                               </li>
-                               <li>
-                                   <span class="label label-success">Others</span> Data Structures, Algorithms, Machine Learning, Deep Learning, Computer Vision, Image Processing, and Natural Language Processing.
-                               </li>
-                           </ul>
+                            <ul>
+                                <li>
+                                    <span class="label label-success">Programming Languages</span> Python, Matlab, C++.
+                                </li>
+                                <li>
+                                    <span class="label label-success">Tools &amp; Technologies</span> OpenCV, TensorFlow, Keras, PyTorch, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook, Anaconda, Git, Docker, Pycharm, Visual Studio Code, Spyder, Sublime Text, Notepad++, MS Office.
+                                </li>
+                                <li>
+                                    <span class="label label-success">Web Technologies</span> HTML, CSS, JavaScript.
+                                </li>
+                                <li>
+                                    <span class="label label-success">Operating Systems</span> Windows, Linux.
+                                </li>
+                                <li>
+                                    <span class="label label-success">Classification Models</span> VGG16, ResNet, Inception, DenseNet.
+                                </li>
+                                <li>
+                                    <span class="label label-success">Object Detection Models</span> YOLOv3, RetinaNet, DETR, Vision Transformers.
+                                </li>
+                                <li>
+                                    <span class="label label-success">Image Segmentation Models</span> UNET, Attention UNET, DeepLabv3, Cellpose, StarDist, FCN.
+                                </li>
+                            </ul>
                     </div>
                 </div>
             </div>
         </section>
-        
- 
-         <!-- Courses Section -->
-         <section  name="awards" id="awards">
-             <div class="container lead">
-                 <div style="text-align: left; margin-top:10px" class="col-md-12">
-                     
-                     <b class="noshow" style="display:none;" id="tab-6">
-                         <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-awards-content').toggle();">Awards  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                     </b>
-                     <div class="allshow" style="display:none;" id="tab-awards-content">
-                         
-                         <hr class="star-primary">
-                         <h2>Awards and Honors <a href="cv.html#SECTION00040000000000000000" class="btn btn-primary">More &raquo;</a></h2>
-                         <ul>
-                             <li>
-                                 <span class="label label-success">IEEE MDM'18</span> <a target="_blank" href="https://mdmconferences.org/mdm2018/">Best of MDM 2018</a>,  ``Decaying Telco Big Data with Data Postdiction'', 19th IEEE International Conference on Mobile Data Management (MDM'18), Aalborg, Denmark, June 26 - June 28, 2018 (Geinformatica - Springer - journal invitation).</span>
-                             </li>
-                             <li>
-                                 <span class="label label-success">IEEE MDM'18</span> <a target="_blank" href="https://mdmconferences.org/mdm2018/">Best Demo Award</a>,  ``FMS: Managing Crowdsourced Indoor Signals with the Fingerprint Management Studio'', 19th IEEE International Conference on Mobile Data Management (MDM'18), Aalborg, Denmark, June 26 - June 28, 2018.</span>
-                             </li>
-                             <li>
-                                 <span class="label label-success">IEEE MDM'17</span> <a target="_blank" href="https://mdmconferences.org/mdm2017/">Honorable Mention Award</a>,  ``Indoor Localization Accuracy Estimation from Fingerprint Data'', 18th IEEE International Conference on Mobile Data Management (MDM'17), KAIST, Daejeon, South Korea, May 29 - June 1, 2017.</span>
-                             </li>
-                             <li>
-                                 <span class="label label-success">ACM DSP'17</span> <a target="_blank" href="https://dsp.acm.org/view_lecturer.cfm?lecturer_id=7903">ACM Distinguished Speaker</a>, Association for Computing Machinery, New York, NY, USA, 2017-2020.</span>
-                             </li>
-                             <li>
-                                 <span class="label label-success">ACM SENIOR'16</span> <a target="_blank" href="https://awards.acm.org/award_winners/zeinalipour_1835156.cfm">ACM Senior Member</a>, Association for Computing Machinery, New York, NY, USA, 2016.</span>
-                             </li>
-                             <li>
-                                 <span class="label label-success">IEEE SENIOR'16</span> <a target="_blank" href="https://www.ieee.org/membership_services/membership/senior/index.html">IEEE Senior Member</a>, Institute of Electrical and Electronics Engineers, Piscataway, NJ, USA, 2016.</span>
-                             </li>
-                             <li>
-                                 <span class="label label-success">HUMBOLDT'16</span> <a target="_blank" href="https://www.humboldt-foundation.de/web/home.html">Humboldt Fellow</a>, Alexander von Humboldt Foundation, Bonn, Germany, 2016.</span>
-                             </li>
-                             <li>
-                                 <span class="label label-success">EVARILOS'14</span> <a target="_blank" href="http://www.evarilos.eu/open-challenge.php">Best Demo Award</a>, EVARILOS Open Challenge, FP7 Project (#317989), European Union, Berlin, Germany, 2014.</span>
-                             </li>
-                             <li>
-                                 <span class="label label-success">ACM/IEEE IPSN'14</span> <a target="_blank" href="https://research.microsoft.com/en-us/events/ipsn2014indoorlocalizatinocompetition/">2nd Best Demo Award</a>, Microsoft Indoor Localization Competition 2014, collocated with 13th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN'14), April 15-17, Berlin, Germany, 2014.</span>
-                             </li>
-                             <li>
-                                 <span class="label label-success">APPCAMPUS'13</span> <a target="_blank" href="https://blogs.windows.com/bloggingwindows/2013/11/11/5-top-apps-from-the-appcampus-program-for-windows-phone/">Appcampus Award</a>, ``Rayzit: Crowd Messaging'', Microsoft, Nokia and Aalto University, Finland, 2013.</span>
-                             </li>
-                             
-                             <li>
-                                 <span class="label label-success">IEEE MDM'12</span> <a target="_blank" href="https://mdmconferences.org/mdm2012/">Best Demo Award</a>,  ``The Airplace Indoor Positioning Platform for Android Smartphones'', 13th IEEE International Conference on Mobile Data Management (MDM'12), Bangalore, India, July 23-26, 2012.</span>
-                             </li>
-                             
-                             <li>
-                                 <span class="label label-success">COREGRID'06</span> <a target="_blank" href="https://mdmconferences.org/mdm2012/">Best Demo Award</a>, ``ICGrid: Intensive Care Grid'', CoreGRID Industrial Conference, Sophia Antipolis, France, Nov. 2006.</span>
-                             </li>
-                         </ul>
-                     </div>
-                 </div>
-             </div>
-         </section>
 
 
         <!-- Courses Section -->
@@ -352,59 +366,17 @@
                         <hr class="star-primary">
                         <h2>Courses <a href="cv.html#SECTION000110000000000000000" class="btn btn-primary">More &raquo;</a></h2>
                         <ul>
-                            <li><span class="label label-success">EPL646</span> <a href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl646/">Advanced Topics in Databases</a> (Winter)</li>
-                            <li><span class="label label-default">EPL446</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl446/">Advanced Database Systems</a></li>
-                            <li><span class="label label-success">EPL371</span> <a href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl371">Systems Programming</a> (Spring) </li>
-                            <li><span class="label label-default">EPL342</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl342/">Databases</a></li>
-                            <li><span class="label label-success">EPL232</span> <a href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl232">Programming Techniques and Tools</a> (Winter) [formely EPL132]</li>
-                            <li><span class="label label-default">EPL111</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl111">Discrete Structures in Computer Science and Computation</a></li>
-                            <li><span class="label label-default">EPL035</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl035">Data Structures and Algorithms for ECE</a></li>
-                            <li><span class="label label-default">EPL032</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl032">Introduction to Programming and Problem Solving</a></li>
-                            <li><span class="label label-default">EPL003</span> Computer Science and Information Systems</li>
-                            <li><span class="label label-default">EPL001</span> Introduction to Computer Science</li>
+                            <li><span class="label label-default"></span> Linear Algebra</li>
+                            <li><span class="label label-default"></span> Probability & Random Processes</li>
+                            <li><span class="label label-default"></span> Machine Learning</li>
+                            <li><span class="label label-default"></span> Image Processing</li>
+                            <li><span class="label label-default"></span> Computer Vision</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-        
-        <!-- Courses Section -->
-        <section name="systems" id="systems">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-4">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-systems-content').toggle();">Systems  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    
-                    <div class="allshow" style="display:none;" id="tab-systems-content">
-                        <hr class="star-primary">
-                        <h2>Systems <a href="https://dmsl.cs.ucy.ac.cy/projects.php   " class="btn btn-primary">More &raquo;</a></h2>
-                        <ul>
-                            
-                            
-                            <p>
-                            Our group enjoys transforming basic research results into systems and services:
-                            </p>
-                            
-                            <li><span class="label label-success">TBD</span> <a target="_blank" href="https://tbd.cs.ucy.ac.cy" target="_blank">Telco Big Data Awareness</a> (Spatial, Big Data, Decaying)</li>
-                            <li><span class="label label-success">Anyplace</span> <a target="_blank" href="https://anyplace.cs.ucy.ac.cy" target="_blank">Indoor Information Service</a> (Indoor, Big Data, Privacy, Prefetching)</li>
-                            <li><span class="label label-default">Rayzit</span> <a target="_blank" href="https://rayzit.cs.ucy.ac.cy" target="_blank">Crowd Messaging Architecture</a> (Privacy, Crowdsourcing, Mobile, Microblogging)</li>
-                            <li><span class="label label-default">SmartLab</span> <a target="_blank" href="https://smartlab.cs.ucy.ac.cy" target="_blank">Smartphone Cloud Computer</a> (Mobile, Cloud, Programming)</li>
-                            <li><span class="label label-default">Airplace</span> <a target="_blank" href="http://www2.ucy.ac.cy/~laoudias/pages/platform.html" target="_blank">Indoor Localization</a> (Indoor, Wi-Fi, Localization, Mobile)</li>
-                            <li><span class="label label-default">Smarttrace</span> <a target="_blank" href="https://smarttrace.cs.ucy.ac.cy" target="_blank">Trajectory Search Retrieval</a> (Trajectories, Similarity, Mobile)</li>
-                            <li><span class="label label-default">TVM</span> <a target="_blank" href="https://smarttrace.cs.ucy.ac.cy" target="_blank">Temporal Vector Map</a> (Indoor, Privacy, Localization)</li>
-                            <li><span class="label label-default">KSpot+</span> <a target="_blank" href="https://kspot.cs.ucy.ac.cy" target="_blank">Wireless Sensor Networks</a> (WSN, Data Management, Search, Retrieval)</li>
-                            
-                            <br><a target="_blank" href="https://dmsl.cs.ucy.ac.cy/"><img border="0" width="150" src="https://dmsl.cs.ucy.ac.cy/images/logo.png"/></a>
-                            <a target="_blank" href="https://github.com/dmsl/"><img border="0" width="250" src="images/github-logo.png"/></a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        
+     
         <!-- Service Section -->
         <section name="service" id="service">
             
